@@ -1,0 +1,42 @@
+{
+	"folders": {},
+	"connections": {
+		"sqlite_jdbc-1708383804b-2291ee2d6387d9b3": {
+			"provider": "generic",
+			"driver": "sqlite_jdbc",
+			"name": "SQLite - test.db",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"database": "E:\\Workspace\\JSP\\WebContent\\WEB-INF\\lib\\test.db",
+				"url": "jdbc:sqlite:E:\\Workspace\\JSP\\WebContent\\WEB-INF\\lib\\test.db",
+				"type": "dev"
+			}
+		},
+		"sqlite_jdbc-171c5b2921c-10e7de1f6a7a9083": {
+			"provider": "generic",
+			"driver": "sqlite_jdbc",
+			"name": "SQLite - test.db 2",
+			"save-password": true,
+			"show-system-objects": true,
+			"read-only": false,
+			"configuration": {
+				"database": "C:\\Users\\Guillermo\\Desktop\\WorkStation\\M8-Servlets\\WebContent\\WEB-INF\\lib\\test.db",
+				"url": "jdbc:sqlite:C:\\Users\\Guillermo\\Desktop\\WorkStation\\M8-Servlets\\WebContent\\WEB-INF\\lib\\test.db",
+				"type": "dev",
+				"auth-model": "native",
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false
+		}
+	}
+}
